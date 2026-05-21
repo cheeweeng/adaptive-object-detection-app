@@ -1,0 +1,6 @@
+Prompt used in Claude:
+You are an AI Engineer at a company specializing in smart surveillance solutions. Your team has been tasked with developing an Adaptive Object Detection System for Surveillance Applications. The system should be able to count different objects (e.g., vehicles, pedestrians, animals) in surveillance camera footage by simply changing a natural language prompt, without retraining the model.
+
+In this assignment, you may focus on counting the number of vehicles in an uploaded image. You may use Gradio together with a suitable pre-trained model for the task. Guide me step by step to build this app. Ask me anything to clarify any doubts.
+
+Model: Sonnet 4.6
