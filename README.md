@@ -72,6 +72,11 @@ The Adaptive Object Detection App is a zero-shot object detection system built f
 - Adjust the confidence threshold as needed
 - Click "Detect & Count" to see annotated results and object counts
 
+### Demo  
+<img width="812" height="352" alt="image" src="https://github.com/user-attachments/assets/eca1d11e-2b58-4d58-9430-2d813359df82" />  
+
+The application was tested using a parking lot image containing multiple vehicles. The key advantage of zero-shot detection is that the model can identify objects based on text prompts provided by the user, rather than relying on a fixed list of predefined categories. For instance, I have entered “car” as the prompt and the output  showed that the zero-shot object detector successfully identified and generated accurate bounding boxes of the cars. The successful detection result demonstrated that the application could effectively analyze uploaded images and provide reliable object identification and counting functionality by using pre-trained generative AI models to build intelligent computer vision applications without training a model from scratch.  
+
 ## Future Improvements
 
 - **Enhance Detection Speed**: Optimize the OWL-ViT model for real-time processing on lower-end hardware.
